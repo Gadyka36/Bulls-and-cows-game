@@ -33,3 +33,6 @@
 
 #Dolphin
 *.directory
+
+#Project file
+*.dev
