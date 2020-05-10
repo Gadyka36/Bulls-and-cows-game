@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [Project]
 FileName=Bulls and cows.dev
 Name=Bulls and cows
@@ -80,8 +79,8 @@ Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
-
 ||||||| a99bd9b
+
 [Project]
 FileName=Bulls and cows.dev
 Name=Bulls and cows
@@ -163,8 +162,8 @@ Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
-
 =======
+
 [Project]
 FileName=Bulls and cows.dev
 Name=Bulls and cows
@@ -196,7 +195,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=3
 CompilerSettings=0000000100000000000000000
-UnitCount=3
+UnitCount=7
 
 [VersionInfo]
 Major=1
@@ -246,5 +245,45 @@ Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
-
 >>>>>>> 7d82e5b4a1702d6cf5c71de9455682227af6e3b1
+
+[Unit4]
+FileName=Menu.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit5]
+FileName=Menu.hpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=Rules.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit7]
+FileName=Rules.hpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
