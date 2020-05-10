@@ -1,5 +1,5 @@
-#include "Rules.hpp"
 #include <iostream>
+#include "Rules.hpp"
 
 using namespace std;
 
