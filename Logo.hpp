@@ -1,4 +1,3 @@
-#ifndef Logo
-#define Logo
+#pragma once
 void Logo();
-#endif
+
