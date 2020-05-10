@@ -1,9 +1,10 @@
 #include "Logo.hpp"
 #include <iostream>
+#include <stdlib.h>
 
 using namespace std;
 int main() {
 	Logo();
-	return 0;
+	
 	system("pause");
 }
