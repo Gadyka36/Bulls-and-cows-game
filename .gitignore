@@ -6,6 +6,7 @@
 *.lo
 *.o
 *.obj
+Bulls\ and\ cows.layout
 
 # Precompiled Headers
 *.gch
@@ -35,4 +36,7 @@
 *.directory
 
 #Project file
-*.dev
+Bulls\ and\ cows.dev
+
+#Makefile
+Makefile.win
