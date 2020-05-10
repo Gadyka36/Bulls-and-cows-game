@@ -7,6 +7,7 @@
 *.o
 *.obj
 Bulls\ and\ cows.layout
+*.layout
 
 # Precompiled Headers
 *.gch
@@ -37,6 +38,7 @@ Bulls\ and\ cows.layout
 
 #Project file
 Bulls\ and\ cows.dev
+*.dev
 
 #Makefile
 Makefile.win
