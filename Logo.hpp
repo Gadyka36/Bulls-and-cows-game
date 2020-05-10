@@ -1,4 +1,4 @@
-#ifndef Logo
-#define Logo
+#pragma once
+using namespace std;
 void Logo();
-#endif
+
