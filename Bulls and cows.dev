@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=Logo.h
+FileName=Logo.hpp
 CompileCpp=1
 Folder=
 Compile=1
