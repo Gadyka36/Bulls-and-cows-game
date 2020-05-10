@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o Logo.o Rules.o
-LINKOBJ  = main.o Logo.o Rules.o
+OBJ      = main.o Logo.o Menu.o Rules.o
+LINKOBJ  = main.o Logo.o Menu.o Rules.o
 LIBS     = -L"C:/Users/User/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lbgi -lgdi32 -luser32 -std=c++11 -m32
 INCS     = -I"C:/Users/User/Dev-Cpp/MinGW64/include" -I"C:/Users/User/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/User/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Users/User/Dev-Cpp/MinGW64/include" -I"C:/Users/User/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/User/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Users/User/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -29,6 +29,9 @@ main.o: main.cpp
 
 Logo.o: Logo.cpp
 	$(CPP) -c Logo.cpp -o Logo.o $(CXXFLAGS)
+
+Menu.o: Menu.cpp
+	$(CPP) -c Menu.cpp -o Menu.o $(CXXFLAGS)
 
 Rules.o: Rules.cpp
 	$(CPP) -c Rules.cpp -o Rules.o $(CXXFLAGS)
