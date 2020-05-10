@@ -4,6 +4,6 @@
 using namespace std;
 int main() {
 	Logo();
-	return 0;
 	system("pause");
+	return 0;
 }
