@@ -4,6 +4,7 @@
 #include "Logo.hpp"
 #include "Rules.hpp"
 #include "Menu.hpp"
+#include "MenuDifficulty.hpp"
 
 
 using namespace std;
