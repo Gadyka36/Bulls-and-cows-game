@@ -195,7 +195,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=3
 CompilerSettings=0000000100000000000000000
-UnitCount=7
+UnitCount=9
 
 [VersionInfo]
 Major=1
@@ -279,6 +279,26 @@ BuildCmd=
 
 [Unit7]
 FileName=Rules.hpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit8]
+FileName=MenuDifficulty.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit9]
+FileName=MenuDifficulty.hpp
 CompileCpp=1
 Folder=
 Compile=1
