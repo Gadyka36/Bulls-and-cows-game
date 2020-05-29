@@ -1,0 +1,2 @@
+C:\Users\User\Desktop\TRPO\Trpo-kyrsach\Bulls and cows - Visual Studio\UnitTest\Debug\UnitTest.vcxprojAssemblyReference.cache
+C:\Users\User\Desktop\TRPO\Trpo-kyrsach\Bulls and cows - Visual Studio\UnitTest\Debug\UnitTest.vcxproj.CopyComplete
