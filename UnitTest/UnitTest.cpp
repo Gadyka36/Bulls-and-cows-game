@@ -1,6 +1,6 @@
 #include "pch.h"
 #include "CppUnitTest.h"
-#include "..\Bulls and cows - Visual Studio\Guess.h"
+#include "..\Guess.h"
 
 using namespace System;
 using namespace System::Text;
@@ -30,7 +30,7 @@ namespace UnitTest
 		};
 
 
-//#pragma endregion 
+		//#pragma endregion 
 
 		[TestMethod]
 		void TestMethodSet()
@@ -52,7 +52,7 @@ namespace UnitTest
 			g->TrySet(1234);
 			Assert::AreEqual(g->Bull, 4);
 			g->TrySet(1256);
-			Assert::AreEqual(g->Bull , 2);
+			Assert::AreEqual(g->Bull, 2);
 			g->TrySet(9874);
 			Assert::AreEqual(g->Bull, 1);
 		};
